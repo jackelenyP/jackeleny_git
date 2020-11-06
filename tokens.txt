@@ -1,0 +1,7 @@
+token_pproyecto: bc2d042ab96da3ff06976508b11f36b9ca1afd10
+
+
+mvn sonar:sonar \
+  -Dsonar.projectKey=PRIMER_PROYECTO \
+  -Dsonar.host.url=http://localhost:8081 \
+  -Dsonar.login=bc2d042ab96da3ff06976508b11f36b9ca1afd10
